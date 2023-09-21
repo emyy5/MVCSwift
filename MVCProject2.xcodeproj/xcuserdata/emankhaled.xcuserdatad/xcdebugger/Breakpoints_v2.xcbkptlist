@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A85849F0-A589-4BC8-9C38-6DD43CD50592"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B7F5040-7E07-4005-8019-6D94D9FE8212"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVCProject2/Model/Services/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "NetworkService"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7B7F5040-7E07-4005-8019-6D94D9FE8212 - 4195552987bf0a61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVCProject2.NetworkService.deinit"
+                  moduleName = "MVCProject2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emankhaled/Desktop/MVCProject2/MVCProject2/Model/Services/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7B7F5040-7E07-4005-8019-6D94D9FE8212 - 1ebae05e9a23eea6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVCProject2.NetworkService.__deallocating_deinit"
+                  moduleName = "MVCProject2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emankhaled/Desktop/MVCProject2/MVCProject2/Model/Services/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "7B7F5040-7E07-4005-8019-6D94D9FE8212 - 457461a9181af404"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVCProject2.NetworkService.__allocating_init() -&gt; MVCProject2.NetworkService"
+                  moduleName = "MVCProject2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emankhaled/Desktop/MVCProject2/MVCProject2/Model/Services/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "7B7F5040-7E07-4005-8019-6D94D9FE8212 - a2f4209bb649fa40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVCProject2.NetworkService.init() -&gt; MVCProject2.NetworkService"
+                  moduleName = "MVCProject2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emankhaled/Desktop/MVCProject2/MVCProject2/Model/Services/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
