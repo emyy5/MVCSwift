@@ -13,6 +13,9 @@
 		91BAB7292ABCA63A0062A99C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91BAB7272ABCA63A0062A99C /* Main.storyboard */; };
 		91BAB72B2ABCA63E0062A99C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91BAB72A2ABCA63E0062A99C /* Assets.xcassets */; };
 		91BAB72E2ABCA63E0062A99C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91BAB72C2ABCA63E0062A99C /* LaunchScreen.storyboard */; };
+		91BAB7392ABCA7070062A99C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAB7382ABCA7070062A99C /* Item.swift */; };
+		91BAB73B2ABCA7F40062A99C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAB73A2ABCA7F40062A99C /* Result.swift */; };
+		91BAB73E2ABCA85B0062A99C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BAB73D2ABCA85B0062A99C /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		91BAB72A2ABCA63E0062A99C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91BAB72D2ABCA63E0062A99C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91BAB72F2ABCA63E0062A99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91BAB7382ABCA7070062A99C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		91BAB73A2ABCA7F40062A99C /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		91BAB73D2ABCA85B0062A99C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,50 @@
 		91BAB7202ABCA63A0062A99C /* MVCProject2 */ = {
 			isa = PBXGroup;
 			children = (
+				91BAB7372ABCA6C80062A99C /* Controller */,
+				91BAB7362ABCA6C10062A99C /* View */,
+				91BAB7352ABCA6BA0062A99C /* Model */,
 				91BAB7212ABCA63A0062A99C /* AppDelegate.swift */,
 				91BAB7232ABCA63A0062A99C /* SceneDelegate.swift */,
-				91BAB7252ABCA63A0062A99C /* ViewController.swift */,
-				91BAB7272ABCA63A0062A99C /* Main.storyboard */,
 				91BAB72A2ABCA63E0062A99C /* Assets.xcassets */,
-				91BAB72C2ABCA63E0062A99C /* LaunchScreen.storyboard */,
 				91BAB72F2ABCA63E0062A99C /* Info.plist */,
 			);
 			path = MVCProject2;
+			sourceTree = "<group>";
+		};
+		91BAB7352ABCA6BA0062A99C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91BAB73C2ABCA84B0062A99C /* Services */,
+				91BAB7382ABCA7070062A99C /* Item.swift */,
+				91BAB73A2ABCA7F40062A99C /* Result.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91BAB7362ABCA6C10062A99C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91BAB72C2ABCA63E0062A99C /* LaunchScreen.storyboard */,
+				91BAB7272ABCA63A0062A99C /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91BAB7372ABCA6C80062A99C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				91BAB7252ABCA63A0062A99C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		91BAB73C2ABCA84B0062A99C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				91BAB73D2ABCA85B0062A99C /* NetworkService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91BAB7392ABCA7070062A99C /* Item.swift in Sources */,
+				91BAB73B2ABCA7F40062A99C /* Result.swift in Sources */,
 				91BAB7262ABCA63A0062A99C /* ViewController.swift in Sources */,
 				91BAB7222ABCA63A0062A99C /* AppDelegate.swift in Sources */,
+				91BAB73E2ABCA85B0062A99C /* NetworkService.swift in Sources */,
 				91BAB7242ABCA63A0062A99C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
